@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApp.jnlp">
+  <information>
+    <title>dobot_lib</title>
+    <vendor>Unknown</vendor>
+    <description>dobot_lib</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApp.jar" size="8629" download="eager" />
+    <jar href="jssc-2.9.2.jar" size="420769" download="eager" />
+    <jar href="lib\jssc-2.9.2.jar" size="420769" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="dobot_lib" />
+  <update check="background"/>
+</jnlp>
